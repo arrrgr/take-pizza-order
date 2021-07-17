@@ -1,0 +1,6 @@
+log.txt
+node_modules/
+.DS_Store
+.env
+profiles
+graph.html

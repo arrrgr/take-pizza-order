@@ -1,0 +1,356 @@
+{
+  "version": "v2",
+  "intents": 
+  {
+    "yes": 
+    {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "absolutely",
+        "yes siree bob",
+        "right",
+        "yep",
+        "you got it",
+        "I would",
+        "yeah", 
+        "I would",
+        "yes that's correct",
+        "yes, that's right",
+        "right",
+        "sure thing",
+        "totally right",
+        "that's right",
+        "see",
+        "totally",
+        "uh huh",
+        "uh-huh"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "wrong",
+        "incorrect",
+        "I do not",
+        "I don't",
+        "I would not",
+        "I wouldn't",
+        "nope",
+        "nah",
+        "incorrect",
+        "wrong",
+        "I'm okay"
+      ],
+      "excludes": [
+        "no, I want a delivery",
+        "no, I want it delivered"
+      ]
+    },
+
+    "unsure": {
+      "includes": [
+        "I'm not sure",
+        "I'm usure",
+        "I don't know what I want",
+        "I don't know what I would like to order",
+        "I do not know",
+        "I don't know for sure",
+        "unsure",
+        "not sure",
+        "I'm not quite sure",
+        "I'm not sure what I'd like",
+        "not sure what I'd like to order",
+        "unsure what I want"
+      ],
+      "excludes": [
+        "sure"
+      ]
+    },
+
+    "changed_mind": 
+    {
+      "includes":[
+        "I changed my mind",
+        "changed mind",
+        "change of hearts",
+        "don't want it anymore",
+        "sorry, I changed my mind",
+        "sorry, I don't want it anymore"
+      ]
+    },
+
+
+    "order_pizza": 
+    {
+      "includes":[
+        "I'd like to order a pizza",
+        "I would like to order a pizza",
+        "I want a pizza",
+        "I want to order a pizza",
+        "yes, I want a pizza",
+        "yes, I'd like to order a pizza",
+        "I'd like a pizza",
+        "yes, I'd like to order a pizza",
+        "I'd like to have a pizza",
+        "I want to buy a pizza",
+        "I wanna get a pizza",
+        "I'd like to get a pizza",
+        "need pizza",
+        "pizza"
+      ]
+    },
+
+    "pizza_kind":
+    {
+      "includes":[
+        "what kind of pizza do you have",
+        "what pizza do you have",
+        "what can you offer",
+        "what do you offer",
+        "what kind of pizza do you offer",
+        "what type of pizza do you have",
+        "kind of pizza",
+        "what do you have"
+      ]
+    },
+
+    "place_order": 
+    {
+      "includes": [
+        "I want to place an order",
+        "I want to pick up some food",
+        "Can I get some food?",
+        "order",
+        "food",
+        "I want to place an order for pick up",
+        "I'd like to pick up some food",
+        "can I pick up some food", 
+        "I'd like to make an order",
+        "I'd like to order something"
+      ],
+      
+      "excludes": [
+        "pizza",
+        "I'd like to get a pizza",
+        "I'd like to order a pizza",
+        "I want to order a pizza",
+        "I want pizza",
+        "I'd like a pizza",
+        "pizza",
+        "I'd like to order a pizza",
+        "I would like to order a pizza",
+        "I want a pizza",
+        "I want to order a pizza",
+        "yes, I want a pizza",
+        "yes, I'd like to order a pizza",
+        "I'd like a pizza",
+        "yes, I'd like to order a pizza",
+        "I'd like to have a pizza",
+        "I want to buy a pizza",
+        "I wanna get a pizza",
+        "I'd like to get a pizza"
+      ]
+      },
+
+    "delivery": {
+      "includes": [
+        "do you deliver",
+        "deliver",
+        "delivery"
+      ]
+    },
+    "connect_me": {
+      "includes": [
+        "I want to speak to someone in the store",
+        "connect me to someone in store",
+        "I placed an order earlier, let me speak to someone in store",
+        "connect me",
+        "put me through to the store",
+        "put me through",
+        "connect"
+      ]
+    },
+    "drinks": {
+      "includes": [
+        "what soda do you have?",
+        "what sodas do you have on tap?",
+        "can I get a soda?",
+        "what about soda",
+        "soda?",
+        "what kind of drinks do you have",
+        "you have any drinks",
+        "what are your beverage options",
+        "beverages",
+        "drinks",
+        "how about drinks"
+      ],
+      "excludes":[
+        "what pizza do you have",
+        "what kind of pizza do you have",
+        "what do you have"
+      ]
+    },
+
+    "bye": {
+      "includes": [
+        "bye",
+        "good bye",
+        "thanks bye",
+        "nevermind",
+        "forget about it",
+        "we're done",
+        "take it easy",
+        "peace out boo",
+        "peace"
+      ]
+    },
+    
+    "soda": {
+      "includes":[
+        "I want a soda",
+        "soda",
+        "soda please",
+        "just a soda",
+        "I'd like a soda",
+        "I'll have a soda",
+        "soda I guess",
+        "maybe a soda",
+        "probably a soda",
+        "soda it is",
+        "I'll go with the soda",
+        "I'll go with a soda",
+        "I'll buy a soda",
+        "a soda I guess"
+      ]
+    },
+
+    "milkshake": {
+      "includes":[
+        "I want a milkshake",
+        "milkshake",
+        "milkshake please",
+        "just a milkshake",
+        "I'd like a milkshake",
+        "I'll have a milkshake",
+        "milkshake I guess",
+        "maybe a milkshake",
+        "probably a milkshake",
+        "milkshake it is",
+        "I'll get a vanilla milkshake",
+        "I'll go with vanilla milkshake",
+        "I would like a vanilla milkshake",
+        "vanilla milkshake please",
+        "vanilla milkshake",
+        "a vanilla milkshake"
+      ]
+    },
+
+    "pay_in_store": {
+      "includes": [
+        "pay in store",
+        "I'll pay in store",
+        "I'd like to pay in store",
+        "in store, please",
+        "I'll pay when I get there",
+        "yeah, in store is fine",
+        "when I pick it up",
+        "in store",
+        "yes",
+        "sure",
+        "of course",
+        "that's right",
+        "yup",
+        "mgm",
+        "mhmm",
+        "that's correct",
+        "sure thing"
+      ]
+    },
+    "pay_by_card": {
+      "includes": [
+        "by card",
+        "now is fine",
+        "I'll pay with my card",
+        "card"
+      ]
+    }
+  },
+ 
+  "entities": 
+  {
+    "drink": 
+    {
+      "open_set": true,
+      "values": [
+        {
+          "value": "milkshake",
+          "synonyms": ["milkshake", "shake", "a milkshake", "strawberry milkshake", "a tasty milkshake"]
+        },
+        {
+          "value": "soda",
+          "synonyms": ["a soda", "coke", "a coke"]
+        }
+      ],
+      "includes": [
+        "I want (coke)[drink] and a (milkshake)[drink]",
+        "I want to get a (milkshake)[drink] and a (coke)[drink]",
+        "I'll get a (coke)[drink] and a (milkshake)[drink]",
+        "I'll have (coke)[drink] and a (milkshake)[drink]",
+        "I'll order (coke)[drink] and a (milkshake)[drink]"
+      ]
+    },
+    "food": 
+    {
+      "open_set": true,
+      "values": [
+        {
+          "value": "Pepperoni",
+          "synonyms": ["pepperoni pizza", "pizza with pepperoni", "a pepperoni pizza"]
+        },
+        {
+          "value": "Hawaiian",
+          "synonyms": ["hawaiian pizza", "pizza with pineapple", "pineapple pizza", "a hawaiian pizza"]
+        },
+        {
+          "value": "Margherita",
+          "synonyms": ["Margherita pizza", "a margherita pizza", "a margherita"]
+        },
+        {
+          "value": "Buffalo",
+          "synonyms": ["Buffalo pizza", "a buffalo pizza", "chicken pizza", "pizza with chicken", "buffalo chicken pizza"]
+        },
+        {
+          "value": "Cheese",
+          "synonyms": ["cheese pizza", "pizza with cheese", "a cheese pizza"]
+        },
+        {
+          "value": "Veggie",
+          "synonyms": ["veggie pizza", "a veggie", "a veggie pizza", "pizza with veggies", "vegeterian pizza", "pizza with vegetables"]
+        }
+      ],
+      "includes": [
+        "(Cheese)[food], (Veggie)[food] and (Margherita)[food]",
+        "(Buffalo)[food], (Veggie)[food] and (Pepperoni)[food]",
+        "(Margherita)[food], (Buffalo)[food] and (Pepperoni)[food]",
+        "(Margherita)[food], (Cheese)[food] and (Pepperoni)[food]",
+        "(Hawaiian)[food], (Margherita)[food] and (Veggie)[food]",
+        "(Cheese)[food], (Pepperoni)[food] and (Veggie)[food]",
+        "I'd like (Margherita)[food], (Veggie)[food] and a (Pepperoni)[food]",
+        "I'd like (Buffalo)[food], (Hawaiian)[food] and a (Margherita)[food]",
+        "I'd like (Veggie)[food], (Buffalo)[food] and a (Margherita)[food]",
+        "I'd like (Hawaiian)[food], (Cheese)[food] and a (Veggie)[food]",
+        "I want (Pepperoni)[food] and (Buffalo)[food]",
+        "I want (Hawaiian)[food] and (Cheese)[food]",
+        "I want (Margherita)[food] and (Pepperoni)[food]",
+        "I want (Cheese)[food] and (Veggie)[food]",
+        "I want (Buffalo)[food] and (Margherita)[food]"
+      ]
+    }
+  }
+}
